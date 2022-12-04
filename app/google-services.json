@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "162746360348",
+    "project_id": "personalservicesapp-e633d",
+    "storage_bucket": "personalservicesapp-e633d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162746360348:android:6e074f72eb1858c18df5d9",
+        "android_client_info": {
+          "package_name": "com.aayar94.personalservicesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162746360348-v6agsde99167jsq3rvc7itra63gfkrrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfG1SrHmknGWkb6CmQfuN-aEpL63fr7ts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162746360348-v6agsde99167jsq3rvc7itra63gfkrrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

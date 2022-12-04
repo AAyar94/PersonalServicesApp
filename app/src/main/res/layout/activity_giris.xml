@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_giris">
+
+    <EditText
+        android:id="@+id/etAd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Ad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etSoyad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Soyad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etAd"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/etAd"
+        app:layout_constraintTop_toBottomOf="@+id/etAd" />
+
+    <EditText
+        android:id="@+id/etHizmet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Hizmet Konusu"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etSoyad"
+        app:layout_constraintStart_toStartOf="@+id/etSoyad"
+        app:layout_constraintTop_toBottomOf="@+id/etSoyad" />
+
+    <EditText
+        android:id="@+id/etEposta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="E-Posta"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etHizmet"
+        app:layout_constraintStart_toStartOf="@+id/etHizmet"
+        app:layout_constraintTop_toBottomOf="@+id/etHizmet" />
+
+    <EditText
+        android:id="@+id/etSifre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etEposta"
+        app:layout_constraintStart_toStartOf="@+id/etEposta"
+        app:layout_constraintTop_toBottomOf="@+id/etEposta" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSifre" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
